@@ -7,34 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13AB6CD4A9FB509EB5712121 /* libPods-SwiftTMDB.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF7AD32C1CF38DED982D404 /* libPods-SwiftTMDB.a */; };
-		C4B117F122C64F0D00E58E50 /* SwiftTMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = C4B117EF22C64F0D00E58E50 /* SwiftTMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C4B1180A22C6521100E58E50 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1180922C6521100E58E50 /* File.swift */; };
-		C4B1180B22C6521900E58E50 /* DiscoverQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1180422C64F3000E58E50 /* DiscoverQuery.swift */; };
-		C4B1180C22C6521900E58E50 /* GetQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1180122C64F2F00E58E50 /* GetQuery.swift */; };
-		C4B1180D22C6521900E58E50 /* ImageQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1180022C64F2F00E58E50 /* ImageQuery.swift */; };
-		C4B1180E22C6521900E58E50 /* MultipleItemQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1180822C64F3000E58E50 /* MultipleItemQuery.swift */; };
-		C4B1180F22C6521900E58E50 /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B117F922C64F2F00E58E50 /* Query.swift */; };
-		C4B1181022C6521900E58E50 /* RecommendedQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1180222C64F2F00E58E50 /* RecommendedQuery.swift */; };
-		C4B1181122C6521900E58E50 /* Reference.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1180522C64F3000E58E50 /* Reference.swift */; };
-		C4B1181222C6521900E58E50 /* SearchQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1180722C64F3000E58E50 /* SearchQuery.swift */; };
-		C4B1181322C6521900E58E50 /* StatusResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1180322C64F2F00E58E50 /* StatusResponse.swift */; };
-		C4B1181422C6521900E58E50 /* SupplimentaryDataQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B117F822C64F2F00E58E50 /* SupplimentaryDataQuery.swift */; };
-		C4B1181522C6521900E58E50 /* TMDBQueryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1180622C64F3000E58E50 /* TMDBQueryManager.swift */; };
-		C4B1181622C6521E00E58E50 /* TMDBPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B117FB22C64F2F00E58E50 /* TMDBPerson.swift */; };
-		C4B1181722C6521E00E58E50 /* TMDBMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B117FC22C64F2F00E58E50 /* TMDBMovie.swift */; };
-		C4B1181822C6521E00E58E50 /* TMDBCreditMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B117FD22C64F2F00E58E50 /* TMDBCreditMovie.swift */; };
-		C4B1181922C6521E00E58E50 /* TMDBObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B117FE22C64F2F00E58E50 /* TMDBObject.swift */; };
-		C4B1181A22C6521E00E58E50 /* TMDBCreditPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B117FF22C64F2F00E58E50 /* TMDBCreditPerson.swift */; };
+		3BEDCC4AE6BB1DBAC1D87B47 /* Pods_SwiftTMDB_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5C6928ADB7179A63DA26D77 /* Pods_SwiftTMDB_iOS.framework */; };
+		68EDF576A16063A3954A82D1 /* Pods_SwiftTMDB_MacOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C416B7FA50D7FCAAA66574 /* Pods_SwiftTMDB_MacOS.framework */; };
+		C4AFACF922CCB012004484ED /* SwiftTMDB_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = C4AFACF722CCB012004484ED /* SwiftTMDB_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4AFAD0622CCB02A004484ED /* SwiftTMDB_MacOS.h in Headers */ = {isa = PBXBuildFile; fileRef = C4AFAD0422CCB02A004484ED /* SwiftTMDB_MacOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4AFAD0A22CCB089004484ED /* MultipleItemQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1180822C64F3000E58E50 /* MultipleItemQuery.swift */; };
+		C4AFAD0B22CCB089004484ED /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B117F922C64F2F00E58E50 /* Query.swift */; };
+		C4AFAD0C22CCB089004484ED /* RecommendedQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1180222C64F2F00E58E50 /* RecommendedQuery.swift */; };
+		C4AFAD0D22CCB089004484ED /* Reference.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1180522C64F3000E58E50 /* Reference.swift */; };
+		C4AFAD0E22CCB089004484ED /* SearchQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1180722C64F3000E58E50 /* SearchQuery.swift */; };
+		C4AFAD0F22CCB089004484ED /* StatusResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1180322C64F2F00E58E50 /* StatusResponse.swift */; };
+		C4AFAD1022CCB089004484ED /* SupplimentaryDataQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B117F822C64F2F00E58E50 /* SupplimentaryDataQuery.swift */; };
+		C4AFAD1122CCB089004484ED /* TMDBQueryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1180622C64F3000E58E50 /* TMDBQueryManager.swift */; };
+		C4AFAD1222CCB08A004484ED /* MultipleItemQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1180822C64F3000E58E50 /* MultipleItemQuery.swift */; };
+		C4AFAD1322CCB08A004484ED /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B117F922C64F2F00E58E50 /* Query.swift */; };
+		C4AFAD1422CCB08A004484ED /* RecommendedQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1180222C64F2F00E58E50 /* RecommendedQuery.swift */; };
+		C4AFAD1522CCB08A004484ED /* Reference.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1180522C64F3000E58E50 /* Reference.swift */; };
+		C4AFAD1622CCB08A004484ED /* SearchQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1180722C64F3000E58E50 /* SearchQuery.swift */; };
+		C4AFAD1722CCB08A004484ED /* StatusResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1180322C64F2F00E58E50 /* StatusResponse.swift */; };
+		C4AFAD1822CCB08A004484ED /* SupplimentaryDataQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B117F822C64F2F00E58E50 /* SupplimentaryDataQuery.swift */; };
+		C4AFAD1922CCB08A004484ED /* TMDBQueryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1180622C64F3000E58E50 /* TMDBQueryManager.swift */; };
+		C4AFAD1A22CCB08C004484ED /* DiscoverQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1180422C64F3000E58E50 /* DiscoverQuery.swift */; };
+		C4AFAD1B22CCB08C004484ED /* GetQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1180122C64F2F00E58E50 /* GetQuery.swift */; };
+		C4AFAD1C22CCB08C004484ED /* ImageQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1180022C64F2F00E58E50 /* ImageQuery.swift */; };
+		C4AFAD1D22CCB08D004484ED /* DiscoverQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1180422C64F3000E58E50 /* DiscoverQuery.swift */; };
+		C4AFAD1E22CCB08D004484ED /* GetQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1180122C64F2F00E58E50 /* GetQuery.swift */; };
+		C4AFAD1F22CCB08D004484ED /* ImageQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B1180022C64F2F00E58E50 /* ImageQuery.swift */; };
+		C4AFAD2022CCB091004484ED /* TMDBPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B117FB22C64F2F00E58E50 /* TMDBPerson.swift */; };
+		C4AFAD2122CCB091004484ED /* TMDBMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B117FC22C64F2F00E58E50 /* TMDBMovie.swift */; };
+		C4AFAD2222CCB091004484ED /* TMDBCreditMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B117FD22C64F2F00E58E50 /* TMDBCreditMovie.swift */; };
+		C4AFAD2322CCB091004484ED /* TMDBObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B117FE22C64F2F00E58E50 /* TMDBObject.swift */; };
+		C4AFAD2422CCB091004484ED /* TMDBCreditPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B117FF22C64F2F00E58E50 /* TMDBCreditPerson.swift */; };
+		C4AFAD2522CCB092004484ED /* TMDBPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B117FB22C64F2F00E58E50 /* TMDBPerson.swift */; };
+		C4AFAD2622CCB092004484ED /* TMDBMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B117FC22C64F2F00E58E50 /* TMDBMovie.swift */; };
+		C4AFAD2722CCB092004484ED /* TMDBCreditMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B117FD22C64F2F00E58E50 /* TMDBCreditMovie.swift */; };
+		C4AFAD2822CCB092004484ED /* TMDBObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B117FE22C64F2F00E58E50 /* TMDBObject.swift */; };
+		C4AFAD2922CCB092004484ED /* TMDBCreditPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B117FF22C64F2F00E58E50 /* TMDBCreditPerson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		01A76CBF57E628644A04B331 /* Pods-SwiftTMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTMDB.debug.xcconfig"; path = "Target Support Files/Pods-SwiftTMDB/Pods-SwiftTMDB.debug.xcconfig"; sourceTree = "<group>"; };
+		0218B9576C7949C023AD4812 /* Pods-SwiftTMDB_MacOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTMDB_MacOS.release.xcconfig"; path = "Target Support Files/Pods-SwiftTMDB_MacOS/Pods-SwiftTMDB_MacOS.release.xcconfig"; sourceTree = "<group>"; };
 		4DF7AD32C1CF38DED982D404 /* libPods-SwiftTMDB.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftTMDB.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		50214FA794906F5AD7D51DD5 /* Pods-SwiftTMDB_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTMDB_iOS.release.xcconfig"; path = "Target Support Files/Pods-SwiftTMDB_iOS/Pods-SwiftTMDB_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		9F56B66B561A474294C79618 /* Pods-SwiftTMDB_MacOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTMDB_MacOS.debug.xcconfig"; path = "Target Support Files/Pods-SwiftTMDB_MacOS/Pods-SwiftTMDB_MacOS.debug.xcconfig"; sourceTree = "<group>"; };
 		A09EE7D0C3FD85233FD80119 /* Pods-SwiftTMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTMDB.release.xcconfig"; path = "Target Support Files/Pods-SwiftTMDB/Pods-SwiftTMDB.release.xcconfig"; sourceTree = "<group>"; };
-		C4B117EC22C64F0D00E58E50 /* SwiftTMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftTMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4B117EF22C64F0D00E58E50 /* SwiftTMDB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftTMDB.h; sourceTree = "<group>"; };
-		C4B117F022C64F0D00E58E50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3C416B7FA50D7FCAAA66574 /* Pods_SwiftTMDB_MacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTMDB_MacOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A72DD2CA9061A9AD71860356 /* Pods-SwiftTMDB_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftTMDB_iOS.debug.xcconfig"; path = "Target Support Files/Pods-SwiftTMDB_iOS/Pods-SwiftTMDB_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		C4AFACF522CCB012004484ED /* SwiftTMDB_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftTMDB_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4AFACF722CCB012004484ED /* SwiftTMDB_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftTMDB_iOS.h; sourceTree = "<group>"; };
+		C4AFACF822CCB012004484ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4AFAD0222CCB02A004484ED /* SwiftTMDB_MacOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftTMDB_MacOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4AFAD0422CCB02A004484ED /* SwiftTMDB_MacOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftTMDB_MacOS.h; sourceTree = "<group>"; };
+		C4AFAD0522CCB02A004484ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4B117F822C64F2F00E58E50 /* SupplimentaryDataQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplimentaryDataQuery.swift; sourceTree = "<group>"; };
 		C4B117F922C64F2F00E58E50 /* Query.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
 		C4B117FB22C64F2F00E58E50 /* TMDBPerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBPerson.swift; sourceTree = "<group>"; };
@@ -52,14 +77,23 @@
 		C4B1180722C64F3000E58E50 /* SearchQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchQuery.swift; sourceTree = "<group>"; };
 		C4B1180822C64F3000E58E50 /* MultipleItemQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleItemQuery.swift; sourceTree = "<group>"; };
 		C4B1180922C6521100E58E50 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		D5C6928ADB7179A63DA26D77 /* Pods_SwiftTMDB_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftTMDB_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C4B117E922C64F0D00E58E50 /* Frameworks */ = {
+		C4AFACF222CCB012004484ED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13AB6CD4A9FB509EB5712121 /* libPods-SwiftTMDB.a in Frameworks */,
+				3BEDCC4AE6BB1DBAC1D87B47 /* Pods_SwiftTMDB_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AFACFF22CCB02A004484ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68EDF576A16063A3954A82D1 /* Pods_SwiftTMDB_MacOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				4DF7AD32C1CF38DED982D404 /* libPods-SwiftTMDB.a */,
+				A3C416B7FA50D7FCAAA66574 /* Pods_SwiftTMDB_MacOS.framework */,
+				D5C6928ADB7179A63DA26D77 /* Pods_SwiftTMDB_iOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -79,8 +115,30 @@
 			children = (
 				01A76CBF57E628644A04B331 /* Pods-SwiftTMDB.debug.xcconfig */,
 				A09EE7D0C3FD85233FD80119 /* Pods-SwiftTMDB.release.xcconfig */,
+				9F56B66B561A474294C79618 /* Pods-SwiftTMDB_MacOS.debug.xcconfig */,
+				0218B9576C7949C023AD4812 /* Pods-SwiftTMDB_MacOS.release.xcconfig */,
+				A72DD2CA9061A9AD71860356 /* Pods-SwiftTMDB_iOS.debug.xcconfig */,
+				50214FA794906F5AD7D51DD5 /* Pods-SwiftTMDB_iOS.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		C4AFACF622CCB012004484ED /* SwiftTMDB_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				C4AFACF722CCB012004484ED /* SwiftTMDB_iOS.h */,
+				C4AFACF822CCB012004484ED /* Info.plist */,
+			);
+			path = SwiftTMDB_iOS;
+			sourceTree = "<group>";
+		};
+		C4AFAD0322CCB02A004484ED /* SwiftTMDB_MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				C4AFAD0422CCB02A004484ED /* SwiftTMDB_MacOS.h */,
+				C4AFAD0522CCB02A004484ED /* Info.plist */,
+			);
+			path = SwiftTMDB_MacOS;
 			sourceTree = "<group>";
 		};
 		C4B117E222C64F0D00E58E50 = {
@@ -88,7 +146,8 @@
 			children = (
 				C4B1180922C6521100E58E50 /* File.swift */,
 				C4B117F722C64F1D00E58E50 /* Source */,
-				C4B117EE22C64F0D00E58E50 /* SwiftTMDB */,
+				C4AFACF622CCB012004484ED /* SwiftTMDB_iOS */,
+				C4AFAD0322CCB02A004484ED /* SwiftTMDB_MacOS */,
 				C4B117ED22C64F0D00E58E50 /* Products */,
 				62CE6A2F333840C8824A1BBF /* Pods */,
 				5C878C34A7D26EF664C43772 /* Frameworks */,
@@ -98,18 +157,10 @@
 		C4B117ED22C64F0D00E58E50 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C4B117EC22C64F0D00E58E50 /* SwiftTMDB.framework */,
+				C4AFACF522CCB012004484ED /* SwiftTMDB_iOS.framework */,
+				C4AFAD0222CCB02A004484ED /* SwiftTMDB_MacOS.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		C4B117EE22C64F0D00E58E50 /* SwiftTMDB */ = {
-			isa = PBXGroup;
-			children = (
-				C4B117EF22C64F0D00E58E50 /* SwiftTMDB.h */,
-				C4B117F022C64F0D00E58E50 /* Info.plist */,
-			);
-			path = SwiftTMDB;
 			sourceTree = "<group>";
 		};
 		C4B117F722C64F1D00E58E50 /* Source */ = {
@@ -146,34 +197,61 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		C4B117E722C64F0D00E58E50 /* Headers */ = {
+		C4AFACF022CCB012004484ED /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4B117F122C64F0D00E58E50 /* SwiftTMDB.h in Headers */,
+				C4AFACF922CCB012004484ED /* SwiftTMDB_iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AFACFD22CCB02A004484ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AFAD0622CCB02A004484ED /* SwiftTMDB_MacOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		C4B117EB22C64F0D00E58E50 /* SwiftTMDB */ = {
+		C4AFACF422CCB012004484ED /* SwiftTMDB_iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C4B117F422C64F0D00E58E50 /* Build configuration list for PBXNativeTarget "SwiftTMDB" */;
+			buildConfigurationList = C4AFACFA22CCB012004484ED /* Build configuration list for PBXNativeTarget "SwiftTMDB_iOS" */;
 			buildPhases = (
-				771DD585A312A4CB48438527 /* [CP] Check Pods Manifest.lock */,
-				C4B117E722C64F0D00E58E50 /* Headers */,
-				C4B117E822C64F0D00E58E50 /* Sources */,
-				C4B117E922C64F0D00E58E50 /* Frameworks */,
-				C4B117EA22C64F0D00E58E50 /* Resources */,
+				503C6E809E65ECE755669C8E /* [CP] Check Pods Manifest.lock */,
+				C4AFACF022CCB012004484ED /* Headers */,
+				C4AFACF122CCB012004484ED /* Sources */,
+				C4AFACF222CCB012004484ED /* Frameworks */,
+				C4AFACF322CCB012004484ED /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SwiftTMDB;
-			productName = SwiftTMDB;
-			productReference = C4B117EC22C64F0D00E58E50 /* SwiftTMDB.framework */;
+			name = SwiftTMDB_iOS;
+			productName = SwiftTMDB_iOS;
+			productReference = C4AFACF522CCB012004484ED /* SwiftTMDB_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C4AFAD0122CCB02A004484ED /* SwiftTMDB_MacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4AFAD0722CCB02A004484ED /* Build configuration list for PBXNativeTarget "SwiftTMDB_MacOS" */;
+			buildPhases = (
+				949DE6AD39B53882D0474008 /* [CP] Check Pods Manifest.lock */,
+				C4AFACFD22CCB02A004484ED /* Headers */,
+				C4AFACFE22CCB02A004484ED /* Sources */,
+				C4AFACFF22CCB02A004484ED /* Frameworks */,
+				C4AFAD0022CCB02A004484ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftTMDB_MacOS;
+			productName = SwiftTMDB_MacOS;
+			productReference = C4AFAD0222CCB02A004484ED /* SwiftTMDB_MacOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -185,9 +263,11 @@
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Dylan Southard";
 				TargetAttributes = {
-					C4B117EB22C64F0D00E58E50 = {
+					C4AFACF422CCB012004484ED = {
 						CreatedOnToolsVersion = 10.2.1;
-						LastSwiftMigration = 1020;
+					};
+					C4AFAD0122CCB02A004484ED = {
+						CreatedOnToolsVersion = 10.2.1;
 					};
 				};
 			};
@@ -204,13 +284,21 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C4B117EB22C64F0D00E58E50 /* SwiftTMDB */,
+				C4AFACF422CCB012004484ED /* SwiftTMDB_iOS */,
+				C4AFAD0122CCB02A004484ED /* SwiftTMDB_MacOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C4B117EA22C64F0D00E58E50 /* Resources */ = {
+		C4AFACF322CCB012004484ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AFAD0022CCB02A004484ED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -220,7 +308,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		771DD585A312A4CB48438527 /* [CP] Check Pods Manifest.lock */ = {
+		503C6E809E65ECE755669C8E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -235,7 +323,29 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SwiftTMDB-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SwiftTMDB_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		949DE6AD39B53882D0474008 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftTMDB_MacOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -245,33 +355,165 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C4B117E822C64F0D00E58E50 /* Sources */ = {
+		C4AFACF122CCB012004484ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4B1181A22C6521E00E58E50 /* TMDBCreditPerson.swift in Sources */,
-				C4B1180D22C6521900E58E50 /* ImageQuery.swift in Sources */,
-				C4B1181122C6521900E58E50 /* Reference.swift in Sources */,
-				C4B1181022C6521900E58E50 /* RecommendedQuery.swift in Sources */,
-				C4B1180A22C6521100E58E50 /* File.swift in Sources */,
-				C4B1180C22C6521900E58E50 /* GetQuery.swift in Sources */,
-				C4B1181822C6521E00E58E50 /* TMDBCreditMovie.swift in Sources */,
-				C4B1181522C6521900E58E50 /* TMDBQueryManager.swift in Sources */,
-				C4B1180E22C6521900E58E50 /* MultipleItemQuery.swift in Sources */,
-				C4B1181722C6521E00E58E50 /* TMDBMovie.swift in Sources */,
-				C4B1181922C6521E00E58E50 /* TMDBObject.swift in Sources */,
-				C4B1180F22C6521900E58E50 /* Query.swift in Sources */,
-				C4B1180B22C6521900E58E50 /* DiscoverQuery.swift in Sources */,
-				C4B1181322C6521900E58E50 /* StatusResponse.swift in Sources */,
-				C4B1181222C6521900E58E50 /* SearchQuery.swift in Sources */,
-				C4B1181622C6521E00E58E50 /* TMDBPerson.swift in Sources */,
-				C4B1181422C6521900E58E50 /* SupplimentaryDataQuery.swift in Sources */,
+				C4AFAD2222CCB091004484ED /* TMDBCreditMovie.swift in Sources */,
+				C4AFAD2122CCB091004484ED /* TMDBMovie.swift in Sources */,
+				C4AFAD1A22CCB08C004484ED /* DiscoverQuery.swift in Sources */,
+				C4AFAD2022CCB091004484ED /* TMDBPerson.swift in Sources */,
+				C4AFAD0F22CCB089004484ED /* StatusResponse.swift in Sources */,
+				C4AFAD1122CCB089004484ED /* TMDBQueryManager.swift in Sources */,
+				C4AFAD0B22CCB089004484ED /* Query.swift in Sources */,
+				C4AFAD0D22CCB089004484ED /* Reference.swift in Sources */,
+				C4AFAD1C22CCB08C004484ED /* ImageQuery.swift in Sources */,
+				C4AFAD0E22CCB089004484ED /* SearchQuery.swift in Sources */,
+				C4AFAD2422CCB091004484ED /* TMDBCreditPerson.swift in Sources */,
+				C4AFAD2322CCB091004484ED /* TMDBObject.swift in Sources */,
+				C4AFAD0A22CCB089004484ED /* MultipleItemQuery.swift in Sources */,
+				C4AFAD1B22CCB08C004484ED /* GetQuery.swift in Sources */,
+				C4AFAD0C22CCB089004484ED /* RecommendedQuery.swift in Sources */,
+				C4AFAD1022CCB089004484ED /* SupplimentaryDataQuery.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4AFACFE22CCB02A004484ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4AFAD2722CCB092004484ED /* TMDBCreditMovie.swift in Sources */,
+				C4AFAD2622CCB092004484ED /* TMDBMovie.swift in Sources */,
+				C4AFAD1D22CCB08D004484ED /* DiscoverQuery.swift in Sources */,
+				C4AFAD2522CCB092004484ED /* TMDBPerson.swift in Sources */,
+				C4AFAD1722CCB08A004484ED /* StatusResponse.swift in Sources */,
+				C4AFAD1922CCB08A004484ED /* TMDBQueryManager.swift in Sources */,
+				C4AFAD1322CCB08A004484ED /* Query.swift in Sources */,
+				C4AFAD1522CCB08A004484ED /* Reference.swift in Sources */,
+				C4AFAD1F22CCB08D004484ED /* ImageQuery.swift in Sources */,
+				C4AFAD1622CCB08A004484ED /* SearchQuery.swift in Sources */,
+				C4AFAD2922CCB092004484ED /* TMDBCreditPerson.swift in Sources */,
+				C4AFAD2822CCB092004484ED /* TMDBObject.swift in Sources */,
+				C4AFAD1222CCB08A004484ED /* MultipleItemQuery.swift in Sources */,
+				C4AFAD1E22CCB08D004484ED /* GetQuery.swift in Sources */,
+				C4AFAD1422CCB08A004484ED /* RecommendedQuery.swift in Sources */,
+				C4AFAD1822CCB08A004484ED /* SupplimentaryDataQuery.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		C4AFACFB22CCB012004484ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A72DD2CA9061A9AD71860356 /* Pods-SwiftTMDB_iOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UQ3BB547F3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SwiftTMDB_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ihounokyaku.com.SwiftTMDB-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4AFACFC22CCB012004484ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50214FA794906F5AD7D51DD5 /* Pods-SwiftTMDB_iOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UQ3BB547F3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = SwiftTMDB_iOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ihounokyaku.com.SwiftTMDB-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C4AFAD0822CCB02A004484ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F56B66B561A474294C79618 /* Pods-SwiftTMDB_MacOS.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UQ3BB547F3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = SwiftTMDB_MacOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ihounokyaku.com.SwiftTMDB-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C4AFAD0922CCB02A004484ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0218B9576C7949C023AD4812 /* Pods-SwiftTMDB_MacOS.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UQ3BB547F3;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = SwiftTMDB_MacOS/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ihounokyaku.com.SwiftTMDB-MacOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		C4B117F222C64F0D00E58E50 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -394,78 +636,32 @@
 			};
 			name = Release;
 		};
-		C4B117F522C64F0D00E58E50 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 01A76CBF57E628644A04B331 /* Pods-SwiftTMDB.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = UQ3BB547F3;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SwiftTMDB/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ihounokyaku.com.SwiftTMDB;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C4B117F622C64F0D00E58E50 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A09EE7D0C3FD85233FD80119 /* Pods-SwiftTMDB.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = UQ3BB547F3;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SwiftTMDB/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ihounokyaku.com.SwiftTMDB;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C4AFACFA22CCB012004484ED /* Build configuration list for PBXNativeTarget "SwiftTMDB_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4AFACFB22CCB012004484ED /* Debug */,
+				C4AFACFC22CCB012004484ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4AFAD0722CCB02A004484ED /* Build configuration list for PBXNativeTarget "SwiftTMDB_MacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4AFAD0822CCB02A004484ED /* Debug */,
+				C4AFAD0922CCB02A004484ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C4B117E622C64F0D00E58E50 /* Build configuration list for PBXProject "SwiftTMDB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C4B117F222C64F0D00E58E50 /* Debug */,
 				C4B117F322C64F0D00E58E50 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C4B117F422C64F0D00E58E50 /* Build configuration list for PBXNativeTarget "SwiftTMDB" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C4B117F522C64F0D00E58E50 /* Debug */,
-				C4B117F622C64F0D00E58E50 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
